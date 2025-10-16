@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV=$(cygpath "C:\Codespace\Current_Research_Areas_Sportstechnology_MCI\.venv")
+VIRTUAL_ENV=$(cygpath "C:\Codespace\Current_Research_Areas_in_ST\Current_Research_Areas_Sportstechnology_MCI\.venv")
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
