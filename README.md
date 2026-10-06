@@ -1,5 +1,32 @@
 # Current_Research_Areas_in_ST_MCI
+
 This is the repository for the course Current Research Areas in ST at MCI. The goal here is to have a closer look on topic that are currently relevant in Sports Technologies
 
 # Requirements & Virtual Environment
-The repository has a requirements.txt file for every jupyter notebook and a preinstalled virtual environment with .venv. Be aware, that .venv only has pip and setuptool installed but no other packages. If you want to run a specific notebook, let pip install the requirements.txt file within the notebook's folder after you have activated the virtual environment. This way you can make sure, that you do not touch you default environment.
+
+Step 1:
+
+Clone the repository with you IDE:
+
+Step 2:
+
+Create a virtual environment in the root directory of the cloned repository. Then activate it, i.e. with typing the following commands in your terminal:
+
+```
+python -m venv .venv
+```
+
+and
+
+```
+.\.venv\Scripts\Activate.ps1
+```
+
+Step 3:
+
+Install the requirements for the repository, i.e. with the following commands:
+
+```
+python.exe -m pip install --upgrade pip
+pip install -r requirements.txt
+```
